@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+<script>
+let a=[1,2,3,4,5]
+let b=a.map((x) =>{return x+5});
+console.log("Given array is");
+console.log(a);
+console.log("using map()");
+console.log(b);
+let c=a.reduce((sum,i) =>{return sum+i});
+console.log("using reduce()");
+console.log("sum=",c);
+let even=a.filter((x)=>{return x%2==0});
+let odd=a.filter((x)=>{return x%2!=0});
+console.log("using filter()");
+console.log("even list=");
+console.log(even);
+console.log("odd list=");
+console.log(odd);
+</script>
+</body>
+</html>
